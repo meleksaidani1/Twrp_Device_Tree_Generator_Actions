@@ -29,7 +29,7 @@ jobs:
       - name: Required package Install
         run: sudo apt-get install wget cpio
       - name: Stock ROM Files Downalod
-        run: wget https://a.tmp.ninja/jhSZwYOU.img -O boot.img
+        run: wget https://mgb1.androidfilehost.com/dl/y1A1NuYvd2fD6FozvD9mSA/1705096935/10620683726822065324/PATRIOTJAYA.COM_REPAIR_DEAD_BOOT_A10S_MT6765_SAMSUNG_SM-A107F_10_QP1A.190711.020.A107FXXU8BUF1_QP1A.190711.020.zip
       - name: TWRP Device Tree Generate
         run: |
          ls
